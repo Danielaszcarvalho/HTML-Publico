@@ -5,13 +5,15 @@ body { height: 100vh ;
     background-image: url(img/wallpaper002.jpg);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover  ;
+    background-size: cover;
+    background-attachment:fixed ;
 }
 
 main {
     text-align: center;
     background-color: rgb(255, 255, 255);
-    width: 400px;
+   min-width: 400px;
+   width: 400px;
     padding: 20px;
     margin: auto;
     border-radius: 5px;
