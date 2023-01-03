@@ -29,6 +29,7 @@ header {
     text-align: center;
     padding: 30px;
     color: white;
+    margin-bottom: 22px;
     text-align: center;
 }
 
@@ -50,18 +51,25 @@ footer a {
     font-weight: bolder;
 }
 
-header a:hover, footer a:hover {
+header a:hover,
+footer a:hover {
     text-decoration: underline;
 }
 
-section p {
-    font-size: 1.5;
-    font-family: var(--fonte3);
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    line-height: 2em;
-    padding-left: 30px;
+main>section#imagem2{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
 }
+main>section#imagem01{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+    background-size: cover;
+}
+main>section>p{
+    padding-bottom: 2em;
+}
+
 
 section.normal {
     background-color: rgb(255, 255, 255);
@@ -69,14 +77,33 @@ section.normal {
 }
 
 section.imagem {
+    box-shadow: inset 6px 6px 13px 0px  rgba(0, 0, 0, 0.781);
     background-color: rgb(59, 58, 58);
     color: rgb(255, 255, 255);
+    background-attachment: fixed;
+
 
 }
+main>section>p{
+
+    text-shadow: 1px 1px 3px rgb(44, 44, 44);
+    font-family: var(--fonte3);
+}
+ main>section{
+  
+    font-size: 20px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+ }
 
 section.imagem>p {
-    width: 400px;
-    background-color: rgb(51, 51, 51);
+    
+    background-color: rgba(21, 21, 21, 0.393);
+    width:350px;
+    
+    
 }
 
 footer {
