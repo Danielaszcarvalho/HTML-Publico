@@ -1,5 +1,31 @@
 @charset "UTF-8";
-
-div.bloco{
-    
+*{
+    font-family: 'Times New Roman', Times, serif;
 }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    padding: 8px;
+    width: 400px;
+    height: 400px;
+}
+
+tr{
+    background-color: rgb(225, 210, 149);
+}
+
+td{ vertical-align: middle;
+    text-align: center;
+    border: 1px solid black;
+}
+td.dado{
+    background-color: rgb(221, 166, 107);
+}
+tr.linha{
+    background-color: rgb(218, 173, 118);
+}
+
