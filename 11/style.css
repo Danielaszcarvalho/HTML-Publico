@@ -1,0 +1,19 @@
+@chasert "UTF-8";
+
+body{
+ font-family:'Times New Roman', Times, serif;
+}
+table,td,th{
+    border: 1px solid black;
+    border-collapse:collapse ;
+
+    padding: 10px;
+    text-align: center;
+}
+caption{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+th{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

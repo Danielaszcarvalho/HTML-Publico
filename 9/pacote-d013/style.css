@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body{
+ 
+font-family:   'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+table{
+    width: 500px;
+    border-collapse: collapse;
+}
+
+td{ padding: 10px;
+        border: 1px solid black;  
+         text-align: center;
+}
