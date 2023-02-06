@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+@media screen  and (min-width:768px)  {
+    section#login{
+        width: 90vw;
+    transition: width .4s, heigth .4s;
+        
+    }
+    section#login > div#imagem{
+    float:left ;
+    width: 30%;
+    height: 100%;}
+ 
+ }

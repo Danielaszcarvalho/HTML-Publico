@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width:768px) {
+    
+    span#hamburquinho {
+        display: none;
+     }
+     menu{
+        display: block;
+     }
+     menu > ul >li{
+        display: inline-block;
+        text-align: center;
+       
+     }
+     menu a{
+        background-color: rgba(41, 41, 41, 0.624);
+     }
+
+     main{
+        width: 768px;
+     }
+}

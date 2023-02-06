@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <main>
+        <section id="login">
+
+
+            <div id="imagem"></div>
+
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja Bem-Vindo (a) em sua conta</p>
+            </div>
+
+
+            <form action="longin.php" method="post">
+
+                <div class="campo">
+                    <span class="material-symbols-outlined">
+                        forward_to_inbox
+                    </span>
+                    <input type="email" name="email" id="iemail" placeholder=" Coloque seu e-mail." required>
+                    <label for="iemail">E-mail</label>
+                </div>
+
+                <br>
+
+                <div class="senha">
+                    <span class="material-symbols-outlined">
+                        lock
+                        </span>
+                    <input type="password" name="senha" id="isenha" placeholder=" Digite seu password" required>
+                    <label for="isenha">Senha</label>
+                </div>
+                     
+                <br>
+
+                 <div class="enviar">
+                    <input id="enviar1" type="submit" value="Enviar" >
+                    <input id="enviar2"  type="reset" value="Apagar">
+                 </div>
+            </form>
+
+
+            </div>
+
+
+        </section>
+    </main>
+</body>
+
+</html>
